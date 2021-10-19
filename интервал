@@ -1,0 +1,14 @@
+using system;
+
+class program
+{
+static void Main(string[] args)
+{
+double[] mass = new double[] { 2, 3.5, 1.9 };
+for (int i = 0; i < mass.Length; ++i)
+{
+if (mass[i] >= 1 && mass[i] <= 3)
+Console.WriteLine(mass[i]);
+}
+Console.ReadKey();
+} 
